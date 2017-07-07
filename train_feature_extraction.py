@@ -9,7 +9,7 @@ import random
 
 # TODO: Load traffic signs data.
 nb_classes = 43
-EPOCHS = 1
+EPOCHS = 10
 BATCH_SIZE = 128
 
 with open('./train.p', 'rb') as f:
